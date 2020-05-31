@@ -34,9 +34,11 @@ Resources:
                 - !Ref InstanceSecurityGroup
             KeyName: !Ref KeyName
             ImageId: !Ref AMI
-
             SubnetId:
                 Fn::ImportValue: !Sub "${EnvironmentName}-PUB1-SN"
+            Tags:
+                - Key: Name
+                  Value: "Bastion"
 
     InstanceSecurityGroup:
         Type: "AWS::EC2::SecurityGroup"
