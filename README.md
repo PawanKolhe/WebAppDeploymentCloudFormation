@@ -4,7 +4,7 @@ In this project, web servers are deployed for a highly available web app using C
 
 ## Architechure Diagram
 
-_Insert Image_
+![Architecture Diagram](https://github.com/PawanKolhe/WebAppDeploymentCloudFormation/blob/master/Diagram.png)
 
 ## Deployment
 
