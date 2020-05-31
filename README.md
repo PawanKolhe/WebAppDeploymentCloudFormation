@@ -51,6 +51,6 @@ In this project, web servers are deployed for a highly available web app using C
 	./update.sh udagram-bastion bastion.yml bastion-params.json
 
 	# Deleting stack
-	./delete.sh udagram-network
 	./delete.sh udagram-servers
 	./delete.sh udagram-bastion
+	./delete.sh udagram-network
