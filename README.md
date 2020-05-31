@@ -2,11 +2,15 @@
 
 In this project, web servers are deployed for a highly available web app using CloudFormation.
 
+---
+
 > YAML `.yml` files contain the CloudFormation template body with declarations of what resources are to be created and their configuration. 
 
 > JSON `.json` files contain the parameters to be passed to the script. 
 
 > SHELL `.sh` files are helper scripts to enable easy create, update and delete operation on cloudformation stacks.
+
+---
 
 ## Architechure Diagram
 
