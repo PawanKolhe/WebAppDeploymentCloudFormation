@@ -7,8 +7,6 @@ In this project, web servers are deployed for a highly available web app using C
 
 ![Architecture Diagram](https://github.com/PawanKolhe/WebAppDeploymentCloudFormation/blob/master/Diagram.png)
 
----
-
 ## Deployment Instructions
 
 ### Prerequisites
@@ -41,5 +39,3 @@ In this project, web servers are deployed for a highly available web app using C
 	./delete.sh udagram-network
 	./delete.sh udagram-servers
 	./delete.sh udagram-bastion
-	
----
