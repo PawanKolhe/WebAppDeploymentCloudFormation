@@ -17,17 +17,17 @@ In this project, web servers are deployed for a highly available web app using C
 
 ##### Create Stack
 ```sh
-> ./create.sh <NAME-OF-STACK> <TEMPLATE-FILE> <PARAMETER-FILE>
+./create.sh <NAME-OF-STACK> <TEMPLATE-FILE> <PARAMETER-FILE>
 ```
 
 ##### Update Stack
 ```sh
-> ./update.sh <NAME-OF-STACK> <TEMPLATE-FILE> <PARAMETER-FILE>
+./update.sh <NAME-OF-STACK> <TEMPLATE-FILE> <PARAMETER-FILE>
 ```
 
 ##### Delete Stack
 ```sh
-> ./delete.sh <NAME-OF-STACK>
+./delete.sh <NAME-OF-STACK>
 ```
     
 ### Example
