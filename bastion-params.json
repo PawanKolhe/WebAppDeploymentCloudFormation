@@ -1,0 +1,18 @@
+[
+  {
+    "ParameterKey": "EnvironmentName",
+    "ParameterValue": "UdagramApp"
+  },
+  {
+    "ParameterKey": "AMI",
+    "ParameterValue": "ami-003634241a8fcdec0"
+  },
+  {
+    "ParameterKey": "InstanceType",
+    "ParameterValue": "t2.medium"
+  },
+  {
+    "ParameterKey": "KeyName",
+    "ParameterValue": "PawanKolhe"
+  }
+]
