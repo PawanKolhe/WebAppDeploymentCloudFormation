@@ -16,13 +16,19 @@ In this project, web servers are deployed for a highly available web app using C
 ### Commands
 
 ##### Create Stack
-    ./create.sh <NAME-OF-STACK> <TEMPLATE-FILE> <PARAMETER-FILE>
+```sh
+> ./create.sh <NAME-OF-STACK> <TEMPLATE-FILE> <PARAMETER-FILE>
+```
 
 ##### Update Stack
-    ./update.sh <NAME-OF-STACK> <TEMPLATE-FILE> <PARAMETER-FILE>
-    
+```sh
+> ./update.sh <NAME-OF-STACK> <TEMPLATE-FILE> <PARAMETER-FILE>
+```
+
 ##### Delete Stack
-    ./delete.sh <NAME-OF-STACK>
+```sh
+> ./delete.sh <NAME-OF-STACK>
+```
     
 ### Example
 	# Creating stack
