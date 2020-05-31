@@ -54,3 +54,5 @@ In this project, web servers are deployed for a highly available web app using C
 	./delete.sh udagram-servers
 	./delete.sh udagram-bastion
 	./delete.sh udagram-network
+	
+_Stack deletion has to be done in the above order due to dependency_
