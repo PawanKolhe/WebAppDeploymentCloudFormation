@@ -9,11 +9,6 @@ Parameters:
         Type: String
         Default: Udacity
 
-    KeyName:
-        Description: Name of an existing EC2 KeyPair to enable SSH access to the instance
-        Type: AWS::EC2::KeyPair::KeyName
-        Default: PawanKolhe
-
     AMI:
         Description: >
             The Machine Image to be used. Please use an Ubuntu Machine Image Specific to your region. Default is set to an AMI
@@ -240,7 +235,6 @@ Resources:
                       - "\n"
             ImageId: !Ref AMI
             InstanceType: !Ref InstanceType
-            KeyName: !Ref KeyName
             SecurityGroups:
             - Ref: WebServerSecGroup
             BlockDeviceMappings:

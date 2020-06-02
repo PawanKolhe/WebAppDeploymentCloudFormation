@@ -42,17 +42,17 @@ In this project, web servers are deployed for a highly available web app using C
 ### Example
 	# Creating stack
 	./create.sh udagram-network network.yml network-params.json
-	./create.sh udagram-servers servers.yml servers-params.json
 	./create.sh udagram-bastion bastion.yml bastion-params.json
+	./create.sh udagram-servers servers.yml servers-params.json
 	
 	# Creating stack
 	./update.sh udagram-network network.yml network-params.json
-	./update.sh udagram-servers servers.yml servers-params.json
 	./update.sh udagram-bastion bastion.yml bastion-params.json
+	./update.sh udagram-servers servers.yml servers-params.json
 
 	# Deleting stack
 	./delete.sh udagram-servers
 	./delete.sh udagram-bastion
 	./delete.sh udagram-network
 	
-_Stack deletion has to be done in the above order due to dependency_
+_Stack creation and deletion has to be done in the above order due to dependency_
