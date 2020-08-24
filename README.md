@@ -45,7 +45,7 @@ In this project, web servers are deployed for a highly available web app using C
 	./create.sh udagram-bastion bastion.yml bastion-params.json
 	./create.sh udagram-servers servers.yml servers-params.json
 	
-	# Creating stack
+	# Updating stack
 	./update.sh udagram-network network.yml network-params.json
 	./update.sh udagram-bastion bastion.yml bastion-params.json
 	./update.sh udagram-servers servers.yml servers-params.json
